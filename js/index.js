@@ -32,7 +32,7 @@ function displayPostion(position){
    let imageObj = new Image();
             imageObj.src = userMap;
             imageObj.onload = function(){
-              ctx1.drawImage(imageObj, 400, 50, 400,300);
+              ctx1.drawImage(imageObj, 400, 50, 400, 300); // Map is 400x300 because it doesn't look distorted when compared to 400x400.
             }
     // Text for the map        
     ctx1.beginPath();
